@@ -1,3 +1,4 @@
+from django.db import transaction
 from django_elasticsearch_dsl.registries import registry
 from django_elasticsearch_dsl.signals import RealTimeSignalProcessor
 from django.apps import apps
